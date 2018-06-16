@@ -41,7 +41,7 @@ def is_available(nummer):           # Funktion för att kolla om ett specifikt n
 
 
 clear()
-tfnum = raw_input('\tSök telefonnummer (format xxxx-xxxxxx el. xxx-xxxxxxx) : ')                # Fråga efter önskat nummer
+tfnum = raw_input('\tAnge nummer (xxxx-xxxxxx / xxx-xxxxxxx) : ')                # Fråga efter önskat nummer
 nummer = tfnum[1:]
 
 op_data = search_op_by_number(nummer)
