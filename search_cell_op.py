@@ -61,11 +61,11 @@ def is_avaiable(nummer):			# Funktion för att kolla om ett specifikt nummer är
 		print '\n\tNågot blev fel\n\n'	
 		
 clear()		
-tfnum = raw_input('\tAnge det telefonnummer du vill fråga på: ')				# Fråga efter önskat nummer
+tfnum = raw_input('\tSök telefonnummer (format xxxx-xxxxxx el. xxx-xxxxxxx) : ')				# Fråga efter önskat nummer
 nummer = tfnum[1:]
 
 clear()		
-svar = raw_input('\tVälj (L)edigt eller (O)peratör: ')
+svar = raw_input('\tVälj (l)edigt eller (o)peratör: ')
 
 clear()
 
@@ -77,5 +77,5 @@ elif svar == 'o':
 	clear()	
 	search_op_by_number(nummer)
 else:
-	print '\tFel val'
+	print '\tFel val, använd små bokstäver'
 	
